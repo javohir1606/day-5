@@ -1,0 +1,138 @@
+.tags {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.tags_tx {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--c1-a);
+  margin-top: 48px;
+}
+
+.tags_link {
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--c2-a);
+  border-radius: 12px;
+  padding: 4px 10px;
+  background-color: var(--c2-e);
+  margin-top: 16px;
+}
+
+.tags__link {
+  border-radius: 12px;
+  padding: 6px 0px;
+  width: 117px;
+  height: 35px;
+  background-color: var(--c1-j);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--c1-a);
+  margin-top: 48px;
+}
+
+.tags_title {
+  width: 900px;
+  height: 186px;
+  position: relative;
+}
+.tags_row{
+  position: absolute;
+  top: -440px; 
+  justify-content: center;
+  left: 380px;
+}
+.tags__tx {
+  width: 610px;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--c1-a);
+}
+
+.tags_text {
+  margin-top: 48px;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--c1-a);
+}
+
+.tags__tx_text {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--c1-a);
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  width: 600px;
+}
+
+.tags_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags_item {
+  margin-top: 48px;
+}
+
+.tags__tx__text {
+  margin-top: 48px;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--c1-a);
+}
+
+.tags_textt {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--c1-a);
+  width: 600px;
+}
+
+.tags_text__tx {
+  margin-top: 12px;
+  width: 600px;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--c1-a);
+}
+
+.tags_text_item {
+  margin-top: 48px;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--c1-a);
+}
+
+.tags_items_tx {
+  margin-top: 12px;
+  width: 600px;
+  font-weight: 400;
+  font-size: 17px;
+  color: var(--c1-a);
+}
+
+.tags__link_link {
+  border-radius: 12px;
+  padding: 6px 12px 6px 34px;
+  background-color: var(--c1-f);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--c1-a);
+  column-gap: 16px;
+}
+
+.tags_descc {
+  margin-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  column-gap: 16px;
+}
+
+.related_title {
+  width: 269px;
+  height: 316px;
+}

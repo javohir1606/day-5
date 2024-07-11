@@ -1,0 +1,87 @@
+.fruit_text {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--c1-c);
+}
+
+.fruit_tx {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--c1-a);
+}
+
+.fruit_block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 16px;
+}
+
+.fruit_item {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fruit_row {
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--c1-a);
+}
+
+.fruit_link {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--c1-c);
+
+}
+
+.fruit_pic {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  position: relative;
+}
+
+.fruit_pic::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 105%;
+  background-repeat: no-repeat;
+  background-image: url('../img/fruit.svg');
+}
+
+.fruit_subject:after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  z-index: 1;
+  right: 63%;
+  background-repeat: no-repeat;
+  background-image: url('../img/fruit1.svg');
+}
+
+.fruit_items:after {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 16px;
+  right: 23%;
+  background-repeat: no-repeat;
+  background-image: url('../img/fruit2.svg');
+}
+
+.filtre_block {
+  border: 1px solid var(--c1-d);
+  border-radius: 12px;
+  padding: 9px 16px;
+  width: 236px;
+  height: 42px;
+  background-color: var(--c1-h);
+  margin-top: 16px;
+}
+

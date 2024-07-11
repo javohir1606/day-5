@@ -1,0 +1,132 @@
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.header_tx {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--c2-a);
+}
+
+.header_link {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--c1-a);
+}
+
+.header_blog {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--c2-a);
+}
+
+.header_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+.header_title {
+  display: flex;
+  gap: 33px;
+}
+
+.header_row {
+  display: flex;
+  gap: 38px;
+}
+
+.header_pic {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_item {
+  display: flex;
+  gap: 40px;
+}
+
+.header_tem {
+  display: flex;
+  position: relative;
+}
+
+.header_tem::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 16px;
+  top: 18px;
+  background-repeat: no-repeat;
+  background-image: url('../img/header3.svg');
+}
+
+.header_select {
+  width: 130px;
+  border: none;
+}
+
+.header_input {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--c1-c);
+  border: none;
+  outline: none;
+}
+
+.header_form {
+  border: 1px solid var(--c1-d);
+  border-radius: 12px;
+  width: 500px;
+  background-color: var(--c1-h);
+  padding: 11px 24px 12px 24px;
+}
+
+.header_row_pic{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.header_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+  list-style-type: none;
+}
+
+.header_items>li {
+  position: relative;
+}
+
+.header_item_list {
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  padding: 20px;
+  box-shadow: 2px 5px 10px 5px #ccc;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.header_items>li:hover>.header_item_list {
+  display: block;
+}
+
+.header_solid {
+  position: absolute;
+  right: -30px;
+  top: 2px;
+  transition: all .3s ease;
+}
+
+.header_items>li:hover>.header_solid {
+  transform: rotate(180deg);
+}

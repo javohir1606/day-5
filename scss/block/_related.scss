@@ -1,0 +1,34 @@
+.related_link {
+  margin-top: 24px;
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--c2-a);
+  border-radius: 12px;
+  padding: 0px 8px;
+  width: 40px;
+  height: 18px;
+  background-color: var(--c2-e);
+}
+.related_tx{
+  margin-top: 8px;
+font-weight: 600;
+font-size: 18px;
+color: var(--c1-a);
+}
+.related_text{
+  margin-top: 16px;
+font-weight: 400;
+font-size: 12px;
+color: var(--c1-a);
+}
+.related_desc{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.related_block{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 32px;
+  padding-bottom: 48px;
+}

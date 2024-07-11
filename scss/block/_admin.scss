@@ -1,0 +1,79 @@
+.admin_tx {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--c1-c);
+}
+
+.admin_tx span {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--c1-a);
+}
+
+.admin_block {
+  margin-top: 48px;
+  padding-bottom: 48px;
+}
+
+.admin_item {
+  display: flex;
+}
+
+.admin_row {
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--c1-c);
+}
+
+.admin_pic {
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--c1-j);
+}
+
+.admin__tx {
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--c1-j);
+}
+
+.admin_item {
+  margin-top: -90px;
+
+  width: 168px;
+  // margin-left: 20%;
+  display: flex;
+  // align-items: center;
+  // height: 84px;
+}
+
+.admin_list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.admin_list1 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.admin_list2 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.admin_text {
+  margin-top: -190px;
+  margin-left: 35%;
+  width: 520px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+  color: var(--c1-j);
+}
