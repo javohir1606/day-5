@@ -1851,10 +1851,16 @@ body {
   position: relative;
 }
 
+.fram_form_block {
+  position: absolute;
+  right: 16px;
+  top: 20px;
+}
+
 .fram_farm_span {
   height: 20px;
   width: 1px;
-  background-color: blue;
+  background-color: var(--c1-d);
   display: inline-block;
   left: 44px;
   top: 6px;
@@ -1865,6 +1871,90 @@ body {
   font-weight: 600;
   font-size: 12px;
   color: var(--c1-a);
+}
+
+.tax_tx {
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--c1-a);
+}
+
+.tax_block {
+  margin-top: 40px;
+}
+
+.tax_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 12px;
+}
+
+.tax_form {
+  border: 1px solid var(--c1-d);
+  border-radius: 12px;
+  width: 436px;
+  height: 42px;
+  background-color: var(--c1-h);
+  padding: 11px 16px 12px 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 32px;
+}
+
+.tax_input {
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--c1-c);
+}
+
+.tax_span {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--c1-a);
+}
+
+.tatale_tx {
+  margin-top: 43px;
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--c1-a);
+}
+
+.tatale_text {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--c2-a);
+}
+
+.tatale__tx {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: right;
+  color: var(--c2-a);
+}
+
+.tatale_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .join_tx {
