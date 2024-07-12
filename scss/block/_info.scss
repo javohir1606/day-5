@@ -433,7 +433,50 @@
   text-decoration: line-through;
   color: var(--c1-c);
 }
-.fram_item_items{
+
+.fram_item_items {
   margin-left: 115px;
   margin-top: -45px;
+  position: relative;
+}
+
+.fram_form {
+padding: 6px 44px 6px 6px;
+width: 92px;
+height: 32px;
+border: 1px solid var(--c1-d);
+border-radius: 12px;
+&::placeholder{
+font-weight: 400;
+font-size: 14px;
+color: var(--c1-c);
+}
+}
+
+.fram__select{
+  border: none;
+  position: absolute;
+  left: 46px;
+  top: 9px;
+  background-color: #fff;
+  font-weight: 600;
+font-size: 12px;
+color: var(--c1-a);
+}
+.fram_form_block{
+position: relative;
+}
+.fram_farm_span{
+  height: 20px;
+  width: 1px;
+  background-color: blue;
+  display: inline-block;
+  left: 44px;
+  top: 6px;
+  position: absolute
+}
+.optionqwer{
+font-weight: 600;
+font-size: 12px;
+color: var(--c1-a);
 }
