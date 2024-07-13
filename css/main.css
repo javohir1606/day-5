@@ -750,7 +750,7 @@ body {
 
 .footer_item_link {
   font-weight: 600;
-  font-size: 12px;
+  font-size: 9.78px;
   color: var(--c1-a);
   border-radius: 12px;
   padding: 4px 10px;
@@ -761,10 +761,10 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   margin-top: 16px;
-  -webkit-column-gap: 10px;
-     -moz-column-gap: 10px;
-          column-gap: 10px;
-  row-gap: 10px;
+  -webkit-column-gap: 5px;
+     -moz-column-gap: 5px;
+          column-gap: 5px;
+  row-gap: 8px;
 }
 
 .footer_row_tx {
